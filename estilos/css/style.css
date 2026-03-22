@@ -86,3 +86,28 @@ i {
 .apresentacao-esquerda p {
     color: rgba(255, 255, 255, 0.61);
 }
+
+.img-dog {
+    margin: 0 10px;
+    
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.img-dog img {
+    width: 45px;
+    border-radius: 10px;
+}
+
+.conteudo p {
+    font-size: 0.7em;
+}
+
+.escrita-roxo {
+    margin: 10px 120px 10px 10px;
+    padding: 10px;
+    color: var(--roxo-chat);
+    background-color: hsla(276, 100%, 81%, 0.281);
+    border-radius: 10px 10px 10px 0;
+}
